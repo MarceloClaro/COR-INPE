@@ -1,8 +1,14 @@
 # CLUSTERIZAR-COR-INPE
-USANDO PYTHON E APRENDIZAGEM DE MAQUINA PARA DETERMINAR COR  DA IMAGEM LADSAT8 E CATEGORIZAR-LAS COM MACHINE LEARNING. 
-INSTITO FEDERAL DO CEARÁ CURSO DE LICENCIATURA EM GEOGRAFIA AUTOR - MARCELO CLARO LARANJEIRA  ORIENTADORA PROF. MAILTON NOGUEIRA
+O ESTUDO PRESENTE, USANDO LINGUAGENS DO PYTHON E APRENDIZAGEM DE MÁQUINA, PARA DETERMINAR CORES DE IMAGENS DO SATÉLITE E CATEGORIZAR-LAS COM TÉCNICA EM MACHINE LEARNING NÃO SUPERVISIONADA. 
+
+INSTITUTO FEDERAL DO CEARÁ.
+CURSO DE LICENCIATURA EM GEOGRAFIA. 
+AUTOR - MARCELO CLARO LARANJEIRA
+ORIENTADOR PROF. MAILTON NOGUEIRA
 
 Data de início dos trabalhos 12/02/2020.
+
+
 Este é um projeto simples para demonstrar o uso de métodos de aprendizado de máquina não supervisionados (agrupando com o KMeans do scikit-learn ) para extrair cores das imagens, especificamente os produzidos pelo satélite LANDSAT8, com o intuito de monitorizar áreas de cobertura vegetal da microregião do Sertão de Crateús/CE.
 
 Sendo analisada imagens com períodos sanzonais diferentes.
