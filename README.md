@@ -1,5 +1,4 @@
 # CLUSTERIZAR-COR-INPE
-O ESTUDO PRESENTE, USANDO LINGUAGENS DO PYTHON E APRENDIZAGEM DE MÁQUINA, PARA DETERMINAR CORES DE IMAGENS DO SATÉLITE E CATEGORIZAR-LAS COM TÉCNICA EM MACHINE LEARNING NÃO SUPERVISIONADA. 
 
 INSTITUTO FEDERAL DO CEARÁ.
 CURSO DE LICENCIATURA EM GEOGRAFIA. 
@@ -8,16 +7,17 @@ ORIENTADOR PROF. MAILTON NOGUEIRA
 
 Data de início dos trabalhos 12/02/2020.
 
+O ESTUDO PRESENTE, USANDO LINGUAGENS DO PYTHON E APRENDIZAGEM DE MÁQUINA, PARA DETERMINAR CORES DOMINANTES DE IMAGENS DO SATÉLITE, CATEGORIZAR-LAS E QUANTIFICA-LAS EM PORCENTAGEM,  COM TÉCNICA EM MACHINE LEARNING NÃO SUPERVISIONADA. TAIS RESULTADOS PERMITEM ANALISAR COM MAIS CLAREZA A NATUREZA DAS TONALIDADES E SUA REPRESENTATIVIDADE QUANTITATIVA NESSE ESPAÇO FOTOGRAFADO. PODENDO SERVIR PARA MONITORIZAR COBERTURA VEGETAL, SUA DIMINUIÇÃO E AUMENTO EM UM PERÍODO SANZONAL.
 
-Este é um projeto simples para demonstrar o uso de métodos de aprendizado de máquina não supervisionados (agrupando com o KMeans do scikit-learn ) para extrair cores das imagens, especificamente os produzidos pelo satélite LANDSAT8, com o intuito de monitorizar áreas de cobertura vegetal da microregião do Sertão de Crateús/CE.
+Sendo um projeto simples para demonstrar o uso de métodos de aprendizado de máquina não supervisionados (agrupando com o KMeans do scikit-learn ) para extrair cores das imagens, especificamente os produzidos pelo satélite LANDSAT8, com o intuito de monitorizar áreas de cobertura vegetal da microregião do Sertão de Crateús/CE.
 
-Sendo analisada imagens com períodos sanzonais diferentes.
 
-O projeto tem como meta didática e inclusivas para pessoas com acuidade visual comprometida ou limitada,sendo possível analises feitas pela inteligência artificial das cores da imagens do satélite, categorizando-as e agrupando em porcentagem para que o discente possa fazer suas interpretações por base numerica (vocalizada ou não), sem a necessidade das cognição física visual das cores. 
+A pesquisa tem como meta de cunho didático e inclusivo para pessoas com acuidade visual comprometida ou limitada, sendo possível, analises feitas por inteligência artificial, tendo em vista as cores da imagens do satélite, categorizando-as e agrupando em porcentagem, para que o discente, possa fazer suas interpretações por base numerica (vocalizada ou não), sem a necessidade das cognição física visual das cores para o mesmo. E introduzir as ciências humanas, principalmente a geografica, aos patamares tecnológicos atualizados do mercado e da sociedade. 
 
 INTRODUÇÃO CÓDIGO
 
-Aprendizado de máquina com Python - noções básicas
+Aprendizado de máquina com Python - noções básicas.
+
 Estamos vivendo na 'era dos dados' que é enriquecida com melhor poder computacional e mais recursos de armazenamento. Esses dados ou informações estão aumentando dia a dia, mas o verdadeiro desafio é entender todos os dados. Empresas e organizações estão tentando lidar com isso criando sistemas inteligentes usando os conceitos e metodologias da ciência de dados, mineração de dados e aprendizado de máquina. Entre eles, o aprendizado de máquina é o campo mais emocionante da ciência da computação. Não seria errado chamarmos o aprendizado de máquina de aplicação e ciência de algoritmos que dão sentido aos dados.
 
 Neste projeto, mostrarei como usar o OpenCV, Python e o algoritmo de agrupamento k-means para encontrar as cores mais dominantes em uma imagem.
@@ -41,4 +41,3 @@ Vamos tratar esses  pixels MxN como nossos pontos de dados e agrupá-los usando 
 Os pixels que pertencem a um determinado cluster serão mais semelhantes em cores do que os pixels pertencentes a um cluster separado.
 
 Uma ressalva de k-means é que precisamos especificar o número de clusters que queremos gerar com antecedência . Existem algoritmos que selecionam automaticamente o valor ideal de k, mas esses algoritmos estão fora do escopo desta publicação.
-
