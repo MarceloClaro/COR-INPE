@@ -1,18 +1,21 @@
 # CLUSTERIZAR-INPE
 
 INSTITUTO FEDERAL DO CEARÁ.
+
 CURSO DE LICENCIATURA EM GEOGRAFIA. 
-AUTOR - MARCELO CLARO LARANJEIRA
-ORIENTADOR PROF. MAILTON NOGUEIRA
+
+AUTOR - MARCELO CLARO LARANJEIRA.
+
+ORIENTADOR PROF. MAILTON NOGUEIRA.
 
 Data de início dos trabalhos 12/02/2020.
 
-O ESTUDO PRESENTE, USANDO LINGUAGENS DO PYTHON E APRENDIZAGEM DE MÁQUINA, PARA DETERMINAR CORES DOMINANTES DE IMAGENS DO SATÉLITE, CATEGORIZAR-LAS E QUANTIFICA-LAS EM PORCENTAGEM,  COM TÉCNICA EM MACHINE LEARNING NÃO SUPERVISIONADA. TAIS RESULTADOS PERMITEM ANALISAR COM MAIS CLAREZA A NATUREZA DAS TONALIDADES E SUA REPRESENTATIVIDADE QUANTITATIVA NESSE ESPAÇO FOTOGRAFADO. PODENDO SERVIR PARA MONITORIZAR COBERTURA VEGETAL, SUA DIMINUIÇÃO E AUMENTO EM UM PERÍODO SANZONAL.
+O ESTUDO PRESENTE, USANDO LINGUAGENS DO PYTHON E APRENDIZAGEM DE MÁQUINA, PARA DETERMINAR CORES DOMINANTES DE IMAGENS DO SATÉLITE, CATEGORIZAR-LAS E QUANTIFICAR-LAS EM PORCENTAGEM,  COM TÉCNICA EM MACHINE LEARNING NÃO SUPERVISIONADA. TAIS RESULTADOS PERMITEM ANALISAR COM MAIS CLAREZA A NATUREZA DAS TONALIDADES E SUA REPRESENTATIVIDADE QUANTITATIVA NESSE ESPAÇO FOTOGRAFADO. PODENDO SERVIR PARA MONITORIZAR COBERTURA VEGETAL, SUA DIMINUIÇÃO E AUMENTO EM UM PERÍODO SANZONAL.
 
 Sendo um projeto simples para demonstrar o uso de métodos de aprendizado de máquina não supervisionados (agrupando com o KMeans do scikit-learn ) para extrair cores das imagens, especificamente os produzidos pelo satélite LANDSAT8, com o intuito de monitorizar áreas de cobertura vegetal da microregião do Sertão de Crateús/CE.
 
 
-A pesquisa tem como meta de cunho didático e inclusivo para pessoas com acuidade visual comprometida ou limitada, sendo possível, analises feitas por inteligência artificial, tendo em vista as cores da imagens do satélite, categorizando-as e agrupando em porcentagem, para que o discente, possa fazer suas interpretações por base numerica (vocalizada ou não), sem a necessidade das cognição física visual das cores para o mesmo. E introduzir as ciências humanas, principalmente a geografica, aos patamares tecnológicos atualizados do mercado e da sociedade. 
+A pesquisa tem como meta de cunho didático e inclusivo para pessoas com acuidade visual comprometida ou limitada, sendo possível, analises feitas por inteligência artificial, tendo em vista as cores da imagens do satélite, categorizando-as e agrupando em porcentagem, para que o discente, possa fazer suas interpretações por base númerica (vocalizada ou não), sem a necessidade das cognição física visual das cores para o mesmo. E introduzir as ciências humanas, principalmente a geográfica, aos patamares tecnológicos atualizados do mercado e da sociedade. 
 
 INTRODUÇÃO CÓDIGO
 
@@ -22,13 +25,7 @@ Estamos vivendo na 'era dos dados' que é enriquecida com melhor poder computaci
 
 Neste projeto, mostrarei como usar o OpenCV, Python e o algoritmo de agrupamento k-means para encontrar as cores mais dominantes em uma imagem.
 
-Versões OpenCV e Python:
-Este exemplo será executado no  Python 2.7 / Python 3.4+ e OpenCV 2.4.X / OpenCV 3.0+ .
-
-K-Means Clustering
-Então, o que exatamente é k-means?
-
-K-means é um algoritmo de agrupamento .
+Então, o que exatamente é k-means? K-means é um algoritmo de agrupamento .
 
 O objetivo é particionar n pontos de dados em k  clusters. Cada um dos n  pontos de dados será atribuído a um cluster com a média mais próxima. A média de cada cluster é chamada de "centróide" ou "centro".
 
