@@ -19,7 +19,7 @@ A pesquisa tem como meta de cunho didático e inclusivo para pessoas com acuidad
 
 INTRODUÇÃO CÓDIGO
 
-Aprendizado de máquina com Python - noções básicas.
+Aprendizado de máquina com Python - Noções básicas.
 
 Estamos vivendo na 'era dos dados' que é enriquecida com melhor poder computacional e mais recursos de armazenamento. Esses dados ou informações estão aumentando dia a dia, mas o verdadeiro desafio é entender todos os dados. Empresas e organizações estão tentando lidar com isso criando sistemas inteligentes usando os conceitos e metodologias da ciência de dados, mineração de dados e aprendizado de máquina. Entre eles, o aprendizado de máquina é o campo mais emocionante da ciência da computação. Não seria errado chamarmos o aprendizado de máquina de aplicação e ciência de algoritmos que dão sentido aos dados.
 
