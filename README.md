@@ -1,5 +1,7 @@
 # CLUSTERIZAR-INPE
-https://colab.research.google.com/github/MarceloClaro/COR-INPE/blob/master/determinarcor.ipynb
+https://colab.research.google.com/github/MarceloClaro/COR-INPE/blob/master/determinarcor.
+
+
 INSTITUTO FEDERAL DO CEARÁ.
 
 CURSO DE LICENCIATURA EM GEOGRAFIA. 
